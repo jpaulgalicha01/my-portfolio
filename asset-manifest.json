@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.ee716c27.css",
+    "main.js": "/my-portfolio/static/js/main.6e17453a.js",
+    "static/media/img1.png": "/my-portfolio/static/media/img1.f04b03578a177fa872b0.png",
+    "static/media/Roboto-Regular.ttf": "/my-portfolio/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/img2.jpg": "/my-portfolio/static/media/img2.b8dca657b194c85a144b.jpg",
+    "static/media/bootstrap.png": "/my-portfolio/static/media/bootstrap.9cd429090069a189475b.png",
+    "static/media/react-js-log.png": "/my-portfolio/static/media/react-js-log.0438bc55125799597f93.png",
+    "static/media/cs-icon.png": "/my-portfolio/static/media/cs-icon.2ea5f42aeec52bfbe7d7.png",
+    "static/media/php-logo.jpg": "/my-portfolio/static/media/php-logo.8b76825543d9559eecd3.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.ee716c27.css.map": "/my-portfolio/static/css/main.ee716c27.css.map",
+    "main.6e17453a.js.map": "/my-portfolio/static/js/main.6e17453a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee716c27.css",
+    "static/js/main.6e17453a.js"
+  ]
+}
