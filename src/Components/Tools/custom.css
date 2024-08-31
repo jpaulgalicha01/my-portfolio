@@ -1,93 +1,110 @@
-
-:root{
-    --primary : #7F5AF0;
-    --white :#FFFFFE;
-    --secondary: #242629;
-    --black : #16161A;
+:root {
+  --primary: #7f5af0;
+  --white: #fffffe;
+  --secondary: #242629;
+  --black: #16161a;
 }
 
 /* Fonts  */
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('../Fonts/Roboto-Regular.ttf') format('truetype');
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto-Regular.ttf") format("truetype");
 }
-body{
-    background-color: var(--black) ;
+body {
+  background-color: var(--black);
 }
-h1,h2,h3,h4,h5,h5,h6,p{
-    color: var(--white);
-    font-family: 'Roboto';
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6,
+p {
+  color: var(--white);
+  font-family: "Roboto";
 }
 
 .btn {
-    background-color:var(--primary); /* Custom background color */
-    border-color:var(--primary); /* Custom border color */
+  background-color: var(--primary); /* Custom background color */
+  border-color: var(--primary); /* Custom border color */
 }
 
 .btn:hover {
-    background-color: #9479ea; /* Custom background color on hover */
-    border-color: #9479ea;
+  background-color: #9479ea; /* Custom background color on hover */
+  border-color: #9479ea;
 }
 
-.navHeader{
-    position: absolute;
+.navHeader {
+  position: absolute;
 }
 
-.backgroundNavHeader{
-    background-color:transparent;
-    z-index: 1;
+.backgroundNavHeader {
+  background-color: transparent;
+  z-index: 1;
 }
-.link{
-    color: var(--white);
-    text-decoration: none;
-    font-size: 15px;
-    font-family: "Roboto";
+.link {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Roboto";
 }
 
-.link:hover{
-    box-shadow: inset 0 -1px  var(--white);
-    transition: all .5s ease-in-out;
+.link:hover {
+  box-shadow: inset 0 -1px var(--white);
+  transition: all 0.5s ease-in-out;
 }
 
 .banner {
-    background-color: rgba(0, 0, 0, 0.8);
-    background-image: url('../Images/marble.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: darken;
-    z-index: -1;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url("../Images/marble.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  z-index: -1;
 }
 
-.hori-line{
-    box-shadow: inset 0px -5px 0px var(--primary);
-    width:150px;
-    
+.hori-line {
+  box-shadow: inset 0px -5px 0px var(--primary);
+  width: 150px;
 }
 
-.hr-line{
-    box-shadow: inset 0px -5px 0px var(--primary);
-    width:50vw;
-    position: relative; /* Position relative to use the ::after pseudo-element */
-    display: inline-block; /* Make the element inline-block to center with margin auto */
+.hr-line {
+  box-shadow: inset 0px -5px 0px var(--primary);
+  width: 50vw;
+  position: relative; /* Position relative to use the ::after pseudo-element */
+  display: inline-block; /* Make the element inline-block to center with margin auto */
 }
 
-div.sticky-section{
-    position: sticky;
-    top:0;
-    height: 50vh;
-    overflow-y: auto;
+div.sticky-section {
+  position: sticky;
+  top: 90px;
+  height: 50vh;
+  overflow-y: auto;
 }
 
+div.topNavbar {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  transition: top 0.5s ease-in-out; /* Adds smoothness when showing/hiding */
+}
 
-@media (max-width: 992px) { /* 'sm' breakpoint and below */
-    .backgroundNavHeader{
-       background-color: var(--primary);
-    }
-    div.sticky-section{
-        position:relative;
-        top:0;
-        height: 30vh;
-    }
+div.scrolled {
+  background-color: #7f5af0;
+}
+
+@media (max-width: 992px) {
+  /* 'sm' breakpoint and below */
+  .backgroundNavHeader {
+    background-color: var(--primary);
+  }
+  div.sticky-section {
+    position: relative;
+    top: 0;
+    height: 30vh;
+    margin-top: 50px;
+  }
 }
