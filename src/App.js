@@ -674,11 +674,8 @@ export default function App() {
                 <a href="https://github.com/jpaulgalicha01">
                   <i class="fa-brands fa-github text-white"></i>
                 </a>
-                <a href="#">
+                <a href="https://web.facebook.com/johnpaul.galicha.7/">
                   <i class="fa-brands fa-facebook text-white"></i>
-                </a>
-                <a href="#">
-                  <i class="fa-brands fa-github text-white"></i>
                 </a>
               </div>
             </div>
