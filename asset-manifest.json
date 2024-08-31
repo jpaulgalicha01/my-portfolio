@@ -1,20 +1,37 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.ee716c27.css",
-    "main.js": "/my-portfolio/static/js/main.6e17453a.js",
+    "main.css": "/my-portfolio/static/css/main.fe723234.css",
+    "main.js": "/my-portfolio/static/js/main.35c71bf4.js",
     "static/media/img1.png": "/my-portfolio/static/media/img1.f04b03578a177fa872b0.png",
+    "static/media/vma.jpg": "/my-portfolio/static/media/vma.c2826bced78de0fa7245.jpg",
+    "static/media/himaya-logo.png": "/my-portfolio/static/media/himaya-logo.a7ff3bd5b0c3aa7e2728.png",
+    "static/media/fa-solid-900.ttf": "/my-portfolio/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/my-portfolio/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/hwfms-logo.png": "/my-portfolio/static/media/hwfms-logo.28aa83cf97c1f2d8e98a.png",
     "static/media/Roboto-Regular.ttf": "/my-portfolio/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/fa-solid-900.woff2": "/my-portfolio/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/my-portfolio/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/classique.jpg": "/my-portfolio/static/media/classique.f95a8ecc9f119ace82cb.jpg",
     "static/media/img2.jpg": "/my-portfolio/static/media/img2.b8dca657b194c85a144b.jpg",
+    "static/media/fa-regular-400.ttf": "/my-portfolio/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/bootstrap.png": "/my-portfolio/static/media/bootstrap.9cd429090069a189475b.png",
+    "static/media/evalwest.png": "/my-portfolio/static/media/evalwest.3ddc893f7d88e1c064f3.png",
     "static/media/react-js-log.png": "/my-portfolio/static/media/react-js-log.0438bc55125799597f93.png",
     "static/media/cs-icon.png": "/my-portfolio/static/media/cs-icon.2ea5f42aeec52bfbe7d7.png",
+    "static/media/fa-regular-400.woff2": "/my-portfolio/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/galaxy-construction-supply.png": "/my-portfolio/static/media/galaxy-construction-supply.e56131b5598f38ff0dd1.png",
+    "static/media/K5 Distribution.jpg": "/my-portfolio/static/media/K5 Distribution.42141fa8a0b041eb00b2.jpg",
+    "static/media/butchershop.avif": "/my-portfolio/static/media/butchershop.c9603b1e926a6330588b.avif",
+    "static/media/no image.png": "/my-portfolio/static/media/no image.bb10b224f5f932f7779c.png",
+    "static/media/fa-v4compatibility.ttf": "/my-portfolio/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/php-logo.jpg": "/my-portfolio/static/media/php-logo.8b76825543d9559eecd3.jpg",
+    "static/media/fa-v4compatibility.woff2": "/my-portfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/my-portfolio/index.html",
-    "main.ee716c27.css.map": "/my-portfolio/static/css/main.ee716c27.css.map",
-    "main.6e17453a.js.map": "/my-portfolio/static/js/main.6e17453a.js.map"
+    "main.fe723234.css.map": "/my-portfolio/static/css/main.fe723234.css.map",
+    "main.35c71bf4.js.map": "/my-portfolio/static/js/main.35c71bf4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee716c27.css",
-    "static/js/main.6e17453a.js"
+    "static/css/main.fe723234.css",
+    "static/js/main.35c71bf4.js"
   ]
 }
