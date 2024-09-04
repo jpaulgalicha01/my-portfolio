@@ -5,12 +5,13 @@ import imgs from "./Components/Images/img";
 import color from "./Components/Tools/color";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Typewriter from "typewriter-effect";
 export default function App() {
   const [scrolled, setScrolled] = useState(false);
 
   const handleScroll = () => {
     const offset = window.scrollY;
-    if (offset > 100) {
+    if (offset > 500) {
       // Adjust threshold as needed
       setScrolled(true);
     } else {
@@ -31,75 +32,87 @@ export default function App() {
     <>
       <Container fluid>
         {/* Nav Bar */}
-        <Row className="banner ">
-          <svg
-            className="p-0 d-xxl-block d-xl-block d-lg-block d-none "
-            style={{ position: "absolute" }}
-            viewBox="0 0 1440 320"
+
+        <Row className="banner">
+          <div className="pb-3"></div>
+          <header
+            className={`navbar navbar-expand-lg ${scrolled ? "scrolled" : ""}`}
+            id="sticky"
           >
-            <path
-              fill="#7F5AF0"
-              fill-opacity="1"
-              d="M0,256L60,234.7C120,213,240,171,360,160C480,149,600,171,720,176C840,181,960,171,1080,138.7C1200,107,1320,53,1380,26.7L1440,0L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
-            ></path>
-          </svg>
-          <Col
-            className={`d-flex pt-3 backgroundNavHeader topNavbar ${
-              scrolled ? "scrolled" : ""
-            }`}
-            sm="12"
-          >
-            <div style={{ width: "50%" }}>
-              <h4 style={{ textTransform: "uppercase" }}>portlfolio</h4>
+            <div className="container-fluid">
+              <a
+                href="index.php"
+                className="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none"
+              >
+                <h5>MY PORTFOLIO</h5>
+              </a>
+              <div className="col-12 col-lg-auto">
+                <ul className="d-flex nav d-lg-block d-none">
+                  <li>
+                    <a
+                      href="#aboutme"
+                      className="px-2 link px-2 ms-5 text-white"
+                      style={{ textTransform: "uppercase" }}
+                    >
+                      about me
+                    </a>
+                    <a
+                      href="#educationbackground"
+                      className="px-2 link px-2 ms-5 text-white"
+                      style={{ textTransform: "uppercase" }}
+                    >
+                      education background
+                    </a>
+                    <a
+                      href="#skills"
+                      className="px-2 link px-2 ms-5 text-white"
+                      style={{ textTransform: "uppercase" }}
+                    >
+                      skills
+                    </a>
+                    <a
+                      href="#projects"
+                      className="px-2 link px-2 ms-5 text-white"
+                      style={{ textTransform: "uppercase" }}
+                    >
+                      projects
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div className="d-xxl-block d-xl-block d-lg-block d-none align-self-center">
-              <a
-                href="#aboutme"
-                className="px-2 link"
-                style={{ textTransform: "uppercase" }}
-              >
-                about me
-              </a>
-              <a
-                href="#educationbackground"
-                className="px-2 link"
-                style={{ textTransform: "uppercase" }}
-              >
-                education background
-              </a>
-              <a
-                href="#skills"
-                className="px-2 link"
-                style={{ textTransform: "uppercase" }}
-              >
-                skills
-              </a>
-              <a
-                href="#projects"
-                className="px-2 link"
-                style={{ textTransform: "uppercase" }}
-              >
-                projects
-              </a>
-            </div>
-          </Col>
+          </header>
 
           <div className="d-xxl-block d-xl-block d-lg-block d-none">
             <Col className="d-flex" style={{ paddingTop: "10%" }}>
               <div style={{ width: "55%" }} className="align-self-center">
                 <h3 style={{ textTransform: "uppercase" }}>
-                  JOHN PAUL ELERIO GALICHA
+                  <Typewriter
+                    options={{
+                      autoStart: true,
+                      loop: true,
+                    }}
+                    onInit={(typewriter) => {
+                      typewriter
+                        .typeString("Hello, Welcome")
+                        .pauseFor(500)
+                        .deleteAll()
+                        .typeString("I am, JOHN PAUL ELERIO GALICHA")
+                        .start();
+                    }}
+                  />
                 </h3>
+
                 <p style={{ textTransform: "uppercase" }}>PROGRAMMER</p>
                 <Button className="btn">Download CSV</Button>
               </div>
               <img
                 src={imgs.img1}
                 style={{ width: "429px", height: "440px" }}
-                className=""
               />
             </Col>
           </div>
+
           <div className="d-xxl-none d-xl-none d-lg-none d-block">
             <Col className="text-center my-3 p-5">
               <h3 style={{ textTransform: "uppercase" }}>
@@ -672,10 +685,10 @@ export default function App() {
               <p>© John Paul Galicha Portfolio {new Date().getFullYear()}</p>
               <div className="d-flex justify-content-center gap-2">
                 <a href="https://github.com/jpaulgalicha01">
-                  <i class="fa-brands fa-github text-white"></i>
+                  <i className="fa-brands fa-github text-white"></i>
                 </a>
                 <a href="https://web.facebook.com/johnpaul.galicha.7/">
-                  <i class="fa-brands fa-facebook text-white"></i>
+                  <i className="fa-brands fa-facebook text-white"></i>
                 </a>
               </div>
             </div>

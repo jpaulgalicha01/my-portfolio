@@ -40,10 +40,6 @@ p {
   position: absolute;
 }
 
-.backgroundNavHeader {
-  background-color: transparent;
-  z-index: 1;
-}
 .link {
   color: var(--white);
   text-decoration: none;
@@ -85,26 +81,44 @@ div.sticky-section {
   overflow-y: auto;
 }
 
-div.topNavbar {
-  position: fixed;
+header.sticky {
+  background-color: transparent;
   width: 100%;
   z-index: 2;
-  transition: top 0.5s ease-in-out; /* Adds smoothness when showing/hiding */
+  transition: background-color 0.3s ease-in-out;
 }
 
-div.scrolled {
+header.scrolled {
+  position: fixed;
   background-color: #7f5af0;
+  animation: bounceDrop 0.7s ease-in-out;
+  width: 100%;
+  z-index: 2;
 }
 
 @media (max-width: 992px) {
   /* 'sm' breakpoint and below */
-  .backgroundNavHeader {
-    background-color: var(--primary);
-  }
+
   div.sticky-section {
     position: relative;
     top: 0;
     height: 30vh;
     margin-top: 50px;
+  }
+}
+
+/* Keyframes for the bounce drop effect */
+@keyframes bounceDrop {
+  0% {
+    top: -100px; /* Start off-screen */
+  }
+  60% {
+    top: 0px; /* Bounce slightly below its final position */
+  }
+  80% {
+    top: -1px; /* Bounce slightly above its final position */
+  }
+  100% {
+    top: 0; /* Settle into the final position */
   }
 }
