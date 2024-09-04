@@ -356,7 +356,7 @@ export default function App() {
 
           <div
             className="hr-line pt-2"
-            style={{ left: "1%", minWidth: "400px", width: "450px" }}
+            style={{ left: "1%", minWidth: "340px", maxWidth: "450px" }}
           />
           <div className="pt-4" style={{ textAlign: "justify" }}>
             <p>
