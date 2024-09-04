@@ -104,7 +104,13 @@ export default function App() {
                 </h3>
 
                 <p style={{ textTransform: "uppercase" }}>PROGRAMMER</p>
-                <Button className="btn">Download CSV</Button>
+                <a
+                  className="btn text-white"
+                  href="/Components/File/CV.pdf"
+                  download="CV.pdf"
+                >
+                  Download CV
+                </a>
               </div>
               <img
                 src={imgs.img1}
@@ -119,7 +125,13 @@ export default function App() {
                 JOHN PAUL ELERIO GALICHA
               </h3>
               <p style={{ textTransform: "uppercase" }}>PROGRAMMER</p>
-              <Button className="btn">Download CSV</Button>
+              <a
+                className="btn text-white"
+                href="/Components/File/CV.pdf"
+                download="CV.pdf"
+              >
+                Download CV
+              </a>
             </Col>
           </div>
         </Row>
