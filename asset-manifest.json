@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.fe723234.css",
-    "main.js": "/my-portfolio/static/js/main.35c71bf4.js",
+    "main.css": "/my-portfolio/static/css/main.115f56a6.css",
+    "main.js": "/my-portfolio/static/js/main.3d0ca867.js",
     "static/media/img1.png": "/my-portfolio/static/media/img1.f04b03578a177fa872b0.png",
     "static/media/vma.jpg": "/my-portfolio/static/media/vma.c2826bced78de0fa7245.jpg",
     "static/media/himaya-logo.png": "/my-portfolio/static/media/himaya-logo.a7ff3bd5b0c3aa7e2728.png",
@@ -27,11 +27,11 @@
     "static/media/php-logo.jpg": "/my-portfolio/static/media/php-logo.8b76825543d9559eecd3.jpg",
     "static/media/fa-v4compatibility.woff2": "/my-portfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/my-portfolio/index.html",
-    "main.fe723234.css.map": "/my-portfolio/static/css/main.fe723234.css.map",
-    "main.35c71bf4.js.map": "/my-portfolio/static/js/main.35c71bf4.js.map"
+    "main.115f56a6.css.map": "/my-portfolio/static/css/main.115f56a6.css.map",
+    "main.3d0ca867.js.map": "/my-portfolio/static/js/main.3d0ca867.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe723234.css",
-    "static/js/main.35c71bf4.js"
+    "static/css/main.115f56a6.css",
+    "static/js/main.3d0ca867.js"
   ]
 }
