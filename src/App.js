@@ -122,7 +122,20 @@ export default function App() {
           <div className="d-xxl-none d-xl-none d-lg-none d-block">
             <Col className="text-center my-3 p-5">
               <h3 style={{ textTransform: "uppercase" }}>
-                JOHN PAUL ELERIO GALICHA
+                <Typewriter
+                  options={{
+                    autoStart: true,
+                    loop: true,
+                  }}
+                  onInit={(typewriter) => {
+                    typewriter
+                      .typeString("Hello, Welcome")
+                      .pauseFor(500)
+                      .deleteAll()
+                      .typeString("I am, JOHN PAUL ELERIO GALICHA")
+                      .start();
+                  }}
+                />
               </h3>
               <p style={{ textTransform: "uppercase" }}>PROGRAMMER</p>
               <a
